@@ -1,0 +1,69 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+.temperature {
+  display: block;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: right;
+  margin: 20px auto;
+}
+
+#celsius,
+#fahrenheit {
+  font-size: 25px;
+}
+
+#city,
+#date,
+#weather-description {
+  display: block;
+  text-align: right;
+}
+
+#weather-description {
+  font-size: 12px;
+  list-style: none;
+}
+
+.row {
+  text-align: center;
+  position: relative;
+  right: -50px;
+}
+
+.rain-icon {
+  color: #2f9ef8;
+}
+
+.cloud-icon {
+  color: #2f9ef8;
+}
+
+.sun-icon {
+  color: #ffa726;
+}
+footer {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  padding: 30px;
+}
