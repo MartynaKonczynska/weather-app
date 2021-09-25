@@ -27,6 +27,18 @@
   margin: 20px auto;
 }
 
+.temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -25px;
+}
+
 #celsius,
 #fahrenheit {
   font-size: 25px;
