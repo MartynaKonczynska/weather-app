@@ -73,6 +73,10 @@
 .sun-icon {
   color: #e96e50;
 }
+
+.forecast-min {
+  opacity: 0.6;
+}
 footer {
   display: block;
   text-align: center;
