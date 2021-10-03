@@ -56,22 +56,8 @@
   list-style: none;
 }
 
-.row {
+.weather-forecast {
   text-align: center;
-  position: relative;
-  right: -50px;
-}
-
-.cloud-icon {
-  color: #505050;
-}
-
-.rain-icon {
-  color: #505050;
-}
-
-.sun-icon {
-  color: #e96e50;
 }
 
 .forecast-min {
