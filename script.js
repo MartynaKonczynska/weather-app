@@ -34,9 +34,12 @@ function changeCity(event) {
   let city = document.querySelector("#city");
   city.innerHTML = `${searchInput.value}`;
 
+  searchCity(searchInput.value);
+}
+
+function searchCity(city) {
   let apiKey = "6587ba8aeabe441560fe34c077521e3b";
-  let currentCity = searchInput.value;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${currentCity}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
@@ -127,3 +130,5 @@ let currentButton = document.querySelector("#currentButton");
 currentButton.addEventListener("click", getCurrentPosition);
 
 let celsiusTemperature = document.querySelector("#temp-value");
+
+searchCity("Toruń");
